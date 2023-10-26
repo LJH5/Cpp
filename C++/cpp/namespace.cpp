@@ -9,10 +9,10 @@ namespace mycode {
 	}
 }
 
-using namespace mycode; // ÀÌ°Å ¼±¾ð ÀÌÈÄ foo()´Â ¸ðµÎ mycodeÀÇ foo() ÀÓ
+using namespace mycode; // ï¿½Ì°ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ foo()ï¿½ï¿½ ï¿½ï¿½ï¿½ mycodeï¿½ï¿½ foo() ï¿½ï¿½
 
 int main()
 {
 	mycode::foo();
-	foo();	// mycode::foo(); ¿Í µ¿ÀÏÇÑ ±â´É
+	foo();	// mycode::foo(); ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 }
