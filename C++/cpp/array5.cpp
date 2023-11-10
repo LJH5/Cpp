@@ -8,12 +8,12 @@ int main()
 
   int students_scores[num_students];
 
-  // 배열의 메모리 주소 확인 -> 4씩 증가
-  cout << &students_scores << endl;     // 0x61fdc0 
-  cout << &students_scores[0] << endl;  // 0x61fdc0 
-  cout << &students_scores[1] << endl;  // 0x61fdc4 
-  cout << &students_scores[2] << endl;  // 0x61fdc8 
-  cout << &students_scores[3] << endl;  // 0x61fdcc 
+  // 배열?�� 메모�? 주소 ?��?�� -> 4?�� 증�??
+  cout << &students_scores << endl;     // 0x61fdc0
+  cout << &students_scores[0] << endl;  // 0x61fdc0
+  cout << &students_scores[1] << endl;  // 0x61fdc4
+  cout << &students_scores[2] << endl;  // 0x61fdc8
+  cout << &students_scores[3] << endl;  // 0x61fdcc
 
   cout << sizeof(students_scores) << endl;
 
