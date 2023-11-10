@@ -1,6 +1,6 @@
 #pragma once
 
 namespace Constants {
-	extern const double pi;
-	extern const double gravity;
+	const double pi = 3.1415;
+	const double gravity = 9.8;
 }

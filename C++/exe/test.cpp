@@ -3,5 +3,5 @@
 using namespace std;
 
 void doSomething() {
-	cout << "test pi: " << Constants::pi << ", 메모리 주소: " << &Constants::pi << " \n";
+	cout << "test pi: " << Constants::pi << ", ??? ???: " << &Constants::pi << " \n";
 }

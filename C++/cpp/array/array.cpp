@@ -3,7 +3,7 @@
 using namespace std;
 
 int main()
-{   
+{
     int one_student_score;
     int student_scores[5];
 
