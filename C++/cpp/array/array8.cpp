@@ -15,7 +15,7 @@ int main()
     }
     cout << endl;
 
-    int array[num_rows][num_colums] = { 0 }; // 0 ì´ˆê¸°í™” ë°°ì—´
+    int array[num_rows][num_colums] = { 0 }; // 0 ÃÊ±âÈ­ ¹è¿­
 
     int array[num_rows][num_colums] = 
     {
@@ -28,7 +28,7 @@ int main()
     {
         for (int col = 0; col < num_colums; ++col)
             // cout << array[row][col] << '\t';
-            cout << &array[row][col] << '\t';   // ë©”ëª¨ë¦¬ ì£¼ì†Œë¥¼ ë³´ë©´ ì‚¬ì‹¤ 1ì°¨ì›ì„ì„ ì•Œ ìˆ˜ ìˆìŒ
+            cout << &array[row][col] << '\t';   // ¸Ş¸ğ¸® ÁÖ¼Ò¸¦ º¸¸é »ç½Ç 1Â÷¿øÀÓÀ» ¾Ë ¼ö ÀÖÀ½
         cout << endl;
     }
 
