@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/lee/Desktop/Cpp/C++/cpp/control_flow",
-      "program": "/home/lee/Desktop/Cpp/C++/cpp/control_flow/build/Debug/outDebug",
+      "cwd": "/home/lee/Desktop/Cpp/C++/cpp",
+      "program": "/home/lee/Desktop/Cpp/C++/cpp/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
