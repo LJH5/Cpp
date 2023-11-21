@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main() 
+int main()
 {
     int num_students = 0;
     cin >> num_students;
