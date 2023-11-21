@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// tailing ¶Ç´Â trailing
+// tailing ë˜ëŠ” trailing
 // auto add(int x, int y) -> int;
 // auto add(int x, int y) -> double;
 
@@ -10,10 +10,10 @@ auto add(int x, int y)
     return x + y;
 }
 
-// ¾Æ·¡ Ã³·³Àº »ç¿ëÇÏÁö¸»ÀÚ ´ë½Å template »ç¿ë
+// ì•„ë˜ ì²˜ëŸ¼ì€ ì‚¬ìš©í•˜ì§€ë§ì ëŒ€ì‹  template ì‚¬ìš©
 // auto add(auto x, auto y)
 
-// ¸Ş¼Òµå ¿À¹ö·Îµù
+// ë©”ì†Œë“œ ì˜¤ë²„ë¡œë”©
 auto add(double x, double y)
 {
     return x + y;
@@ -21,7 +21,7 @@ auto add(double x, double y)
 
 int main()
 {
-    // ÀÚ·áÇüÀ» »óÈ²¿¡µû¶ó ½º½º·Î Ãß·Ğ, ÃÊ±âÈ­ ÇÊ¼ö
+    // ìë£Œí˜•ì„ ìƒí™©ì—ë”°ë¼ ìŠ¤ìŠ¤ë¡œ ì¶”ë¡ , ì´ˆê¸°í™” í•„ìˆ˜
     auto a = 123;
     auto d = 123.0;
     auto c = 1 + 2.2;

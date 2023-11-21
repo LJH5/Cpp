@@ -1,7 +1,7 @@
 #include <iostream>
 #include <typeinfo>
 
-// ¾Æ·¡¿Í °°ÀÌ ÇÔ¼ö¸¦ Á¤ÀÇÇÏ¸é °³¹ßÀÚ°¡ weapon_id¸¦ ¿Ü¿ö¾ßÇÏ´Â ºÒ»ó»ç
+// ì•„ëž˜ì™€ ê°™ì´ í•¨ìˆ˜ë¥¼ ì •ì˜í•˜ë©´ ê°œë°œìžê°€ weapon_idë¥¼ ì™¸ì›Œì•¼í•˜ëŠ” ë¶ˆìƒì‚¬
 // int computeDMG(int weapon_id)
 // {
 //     if (weapon_id == 0) // sword
@@ -14,17 +14,17 @@
 //     }
 // }
 
-// enumerated type: »ç¿ëÀÚ Á¤ÀÇ ÀÚ·áÇü
+// enumerated type: ì‚¬ìš©ìž ì •ì˜ ìžë£Œí˜•
 enum Color
 {
-    // »ó¼ö ¼±¾ð ½Ã ´Ù¸¥ enum°ú ÀÌ¸§ÀÌ °ãÄ¡Áö´Â °ÍÀ» ÇÇÇÏÀÚ
+    // ìƒìˆ˜ ì„ ì–¸ ì‹œ ë‹¤ë¥¸ enumê³¼ ì´ë¦„ì´ ê²¹ì¹˜ì§€ëŠ” ê²ƒì„ í”¼í•˜ìž
     COLOR_BLACK,
     COLOR_RED,
-    // ¼öµ¿À¸·Î ÇÒ´ç ÇÒ¶§ ÁÖÀÇ!!
+    // ìˆ˜ë™ìœ¼ë¡œ í• ë‹¹ í• ë•Œ ì£¼ì˜!!
     COLOR_BLUE = -2,
     COLOR_GREEN,
     COLOR_YELLOW,
-};  // ¿©±â ";" ÀØÁö¸»ÀÚ
+};  // ì—¬ê¸° ";" ìžŠì§€ë§ìž
 
 int main()
 {
@@ -34,13 +34,13 @@ int main()
     Color apple{COLOR_RED};
     Color house(COLOR_BLUE);
 
-    // 1¾¿ Áõ°¡ÇÑ´Ù´Â °ÍÀ» ÁÖÀÇÇÏÀÚ
-    // cout << paint << "\n";          // 0    ±âº» ½ÃÀÛÀº 0ºÎÅÍ
+    // 1ì”© ì¦ê°€í•œë‹¤ëŠ” ê²ƒì„ ì£¼ì˜í•˜ìž
+    // cout << paint << "\n";          // 0    ê¸°ë³¸ ì‹œìž‘ì€ 0ë¶€í„°
     // cout << COLOR_RED << "\n";      // 1
-    // cout << COLOR_BLUE << "\n";     // -2   -2·Î ¼±¾ð
+    // cout << COLOR_BLUE << "\n";     // -2   -2ë¡œ ì„ ì–¸
     // cout << COLOR_GREEN << "\n";    // -1
-    // cout << COLOR_YELLOW << "\n";   // 0    COLOR_BLACK°ú COLOR_YELLOW°¡ °°Àº °ªÀÌ µÊ
+    // cout << COLOR_YELLOW << "\n";   // 0    COLOR_BLACKê³¼ COLOR_YELLOWê°€ ê°™ì€ ê°’ì´ ë¨
 
-    // º¯¼ö Å¸ÀÔÀÌ int°¡ ¾Æ´ÔÀ» ÁÖÀÇÇÏÀÚ
-    cout << typeid(COLOR_BLACK).name() << "\n"; // 5Color: 5´Â ¹º¶æÀÌÁö?
+    // ë³€ìˆ˜ íƒ€ìž…ì´ intê°€ ì•„ë‹˜ì„ ì£¼ì˜í•˜ìž
+    cout << typeid(COLOR_BLACK).name() << "\n"; // 5Color: 5ëŠ” ë­”ëœ»ì´ì§€?
 }

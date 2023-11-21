@@ -1,11 +1,11 @@
-// ¿µ¿ª Á¦ÇÑ ¿­°ÅÇü
+// ì˜ì—­ ì œí•œ ì—´ê±°í˜•
 #include <iostream>
 
 int main()
 {
     using namespace std;
 
-    // class¸¦ ºÙ¿©¼­ ±¸ºĞÇÒ ¼ö ÀÖµµ·Ï ÇÑ´Ù
+    // classë¥¼ ë¶™ì—¬ì„œ êµ¬ë¶„í•  ìˆ˜ ìˆë„ë¡ í•œë‹¤
     enum class Color
     {
         RED,
@@ -18,7 +18,7 @@ int main()
         APPLE,
     };
 
-    // µÎ°³´Ù 0ÀÌÁö¸¸ class·Î ±¸ºĞÇÔ
+    // ë‘ê°œë‹¤ 0ì´ì§€ë§Œ classë¡œ êµ¬ë¶„í•¨
     Color color = Color::RED;
     Fruit fruit = Fruit::BANANA;
 }
