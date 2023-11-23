@@ -13,10 +13,10 @@ namespace b
 
 int main()
 {
-    // std ÀüºÎ °¡Á®¿À±â
+    // std ì „ë¶€ ê°€ì ¸ì˜¤ê¸°
     using namespace std;
 
-    // cout¸¸ °¡Á®¿À±â
+    // coutë§Œ ê°€ì ¸ì˜¤ê¸°
     // using std::cout;
 
     cout << "hello\n";

@@ -3,21 +3,21 @@
 #include <format>
 using namespace std;
 
-struct Point{ double m_a, m_b, m_c; };	// ±¸Á¶Ã¼´Â ±âº»ÀûÀ¸·Î public
+struct Point{ double m_a, m_b, m_c; };	// êµ¬ì¡°ì²´ëŠ” ê¸°ë³¸ì ìœ¼ë¡œ public
 
 int main() {
-	// ¿¹Á¦ 1
+	// ì˜ˆì œ 1
 	array values{ 11, 22, 33 };
 	auto [x, y, z]{ values };
 	cout << format("{} {} {} \n", x, y, z);
-	
-	// ¿¹Á¦2, publicÀ¸·Î ¼±¾ğµÈ ±¸Á¶Ã¼¿¡µµ Àû¿ë °¡´É
+
+	// ì˜ˆì œ2, publicìœ¼ë¡œ ì„ ì–¸ëœ êµ¬ì¡°ì²´ì—ë„ ì ìš© ê°€ëŠ¥
 	Point point;
 	point.m_a = 1.0; point.m_b = 2.0, point.m_c = 3.0;
 	auto [a, b, c] { point };
 	cout << format("a: {}, b: {}, c: {} \n", a, b, c);
 
-	// ¿¹Á¦3, pair¸¦ ÀÌ¿ëÇÏ±â
+	// ì˜ˆì œ3, pairë¥¼ ì´ìš©í•˜ê¸°
 	pair myPair{ "hello", 5 };
 	auto [theString, theInt] { myPair };
 	cout << format("theString: {} \n", theString);

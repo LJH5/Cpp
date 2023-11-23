@@ -4,19 +4,19 @@
 int main()
 {
     using namespace std;
-    // º¯¼öÀÇ º°¸íÀ» ºÙÀÌ±â typeÀ» ÀÇ¹ÌÇÏ´Â _t¸¦ ºÙ¿©ÁÖ´Â ¼¾½º
+    // ë³€ìˆ˜ì˜ ë³„ëª…ì„ ë¶™ì´ê¸° typeì„ ì˜ë¯¸í•˜ëŠ” _të¥¼ ë¶™ì—¬ì£¼ëŠ” ì„¼ìŠ¤
     typedef double distance_t;
 
     double      my_distance;
     distance_t  home2work;
     distance_t  home2school;
 
-    // º¸±â¿¡ ºÒÆíÇÏ´Ù!!
+    // ë³´ê¸°ì— ë¶ˆí¸í•˜ë‹¤!!
     vector<pair<string, int>> pairlilst;
     typedef vector<pair<string, int>>  pairlilst_t;
     pairlilst_t pairlilst2;
 
-    // ¿äÁòÀº usingÀ¸·Î ´ëÃ¼
+    // ìš”ì¦˜ì€ usingìœ¼ë¡œ ëŒ€ì²´
     using pairlilst_t = vector<pair<string, int>>;
 
 

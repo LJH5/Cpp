@@ -2,27 +2,27 @@
 #include <string>
 using namespace std;
 
-// µ¥ÀÌÅÍ¸¦ ÇÏ³ªÀÇ °³Ã¼·Î ¹­¾îÁÜ
+// ë°ì´í„°ë¥¼ í•˜ë‚˜ì˜ ê°œì²´ë¡œ ë¬¶ì–´ì¤Œ
 struct Person
 {
     double  height;
     float   weight;
     int     age;
-    // ÃÊ±âÈ­µµ °¡´É, ±âº»°ª ¼³Á¤
+    // ì´ˆê¸°í™”ë„ ê°€ëŠ¥, ê¸°ë³¸ê°’ ì„¤ì •
     string  name = "no name";
 
-    // »ç¶÷ÀÇ Á¤º¸¸¦ Ãâ·ÂÇÏ´Â ÇÔ¼ö
+    // ì‚¬ëŒì˜ ì •ë³´ë¥¼ ì¶œë ¥í•˜ëŠ” í•¨ìˆ˜
     void print()
     {
         cout << height << " " << weight << " " << age << " " << name << "\n";
     }
 };
-// ±¸Á¶Ã¼ÀÇ ±¸Á¶Ã¼
+// êµ¬ì¡°ì²´ì˜ êµ¬ì¡°ì²´
 struct Family
 {
     Person me, mom, dad;
 };
-// ÇÔ¼ö ¸®ÅÏµµ °¡´É
+// í•¨ìˆ˜ ë¦¬í„´ë„ ê°€ëŠ¥
 Person getMe()
 {
     Person me{174.3, 70, 20, "jj"};
@@ -34,14 +34,14 @@ Person getMe()
 int main()
 {
     Person me{174.3, 70, 20, "jj"};
-    // °ú°Å¿¡ ÃÊ±âÈ­ ¹æ¹ı
+    // ê³¼ê±°ì— ì´ˆê¸°í™” ë°©ë²•
     // me.height = 174.3;
     // me.weight = 70;
     // me.age = 20;
     // me.name = "jj";
     me.print();
 
-    // °ª º¹»ç °¡´É
+    // ê°’ ë³µì‚¬ ê°€ëŠ¥
     Person me2(me);
     me2.print();
 

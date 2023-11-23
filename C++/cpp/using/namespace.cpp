@@ -9,10 +9,10 @@ namespace mycode {
 	}
 }
 
-using namespace mycode; // �̰� ���� ���� foo()�� ��� mycode�� foo() ��
+using namespace mycode; // 여기서 부터 foo()는 mycode의 foo()가 된다
 
 int main()
 {
 	mycode::foo();
-	foo();	// mycode::foo(); �� ������ ���
+	foo();	// mycode::foo();
 }
