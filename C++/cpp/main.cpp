@@ -6,7 +6,7 @@ using namespace std;
 
 int main(void)
 {
-	int x = 2;		// Á¤¼öÇü µ¥ÀÌÅÍ º¯¼ö ¸Ş¸ğ¸® ÇÒ´ç
+	int x = 2;		// ì •ìˆ˜í˜• ë°ì´í„° ë³€ìˆ˜ ë©”ëª¨ë¦¬ í• ë‹¹
 	x = 5;
 	int  y = x + 3;
 	
