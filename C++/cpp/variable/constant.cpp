@@ -1,8 +1,8 @@
 #include <iostream>
-// 상수를 모아놓은 헤더 파일을 만드는 것을 추천
-#include "MY_CONSTANTS.h"
 // define: c 스타일 매크로, cpp에서 사용비추, 디버깅이 힘듦, 파일 전체에 영향
 #define PRICE_PER_ITEM 30
+// 상수를 모아놓은 헤더 파일을 만드는 것을 추천
+#include "MY_CONSTANTS.h"
 
 using namespace std;
 
