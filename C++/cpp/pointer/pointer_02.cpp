@@ -13,7 +13,8 @@ int main()
     int x = 5;
 
     // 주의: 포인터 변수는 반드시 초기화 시켜줘야 함
-    int *ptr_x;
+    // int *ptr_x;
+    int *ptr_x = &x;
 
     cout << *ptr_x << endl;
 
