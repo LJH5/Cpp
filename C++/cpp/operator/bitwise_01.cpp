@@ -23,5 +23,4 @@ int main()
     cout << std::bitset<8>(b >> 3) << " " << (b >> 3) << "\n";
     cout << std::bitset<8>(b >> 4) << " " << (b >> 4) << "\n";
     cout << "\n";
-
 }
