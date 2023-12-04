@@ -8,5 +8,5 @@ int main()
 
     // De Morgan`s Law
     !(x || y);
-    !x && !y
+    !x && !y;
 }
