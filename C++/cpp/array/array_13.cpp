@@ -1,46 +1,14 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
-int main(void)
+int main()
 {
-	ios::sync_with_stdio(false);
-	cin.tie(nullptr);
+    int array[]{9, 7, 5, 3, 1};
 
-	int arr[5] = {1, 2, 3, 4, 5};
-	int matrix[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-
-	// memset
-	memset(arr, 0, sizeof arr);
-	memset(matrix, 0, sizeof matrix);
-
-	// for
-	for (int i = 0; i < 5; i++)
-		arr[i] = 0;
-	for (int i = 0; i < 3; i++)
-		for (int j = 0; j < 3; j++)
-			matrix[i][j] = 0;
-
-	// fill
-	fill(arr, arr + 5, 0);
-	for (int i = 0; i < 3; i++)
-		fill(matrix[i], matrix[i] + 3, 0);
-
-	// ¹è¿­ Ãâ·Â
-	cout << "1Â÷¿ø ¹è¿­ \n";
-	for (auto i : arr)
-	{
-		cout << i << " ";
-	}
-	cout << "\n\n";
-	cout << "2Â÷¿ø ¹è¿­ \n";
-	for (const auto &row : matrix)
-	{
-		for (const auto &col : row)
-		{
-			cout << col << " ";
-		}
-		cout << "\n";
-	}
-
-	return 0;
+    for (const auto &i : array)
+    {
+        // uintptr_t: unsigned int pointer í˜•ë³€í™˜
+        // intëŠ” 4byteë¼ì„œ ì£¼ì†Œê°’ì´ 4ì”© ì¦ê°€í•œë‹¤
+        cout << i << " " << (uintptr_t)&i << "\n";
+    }
 }
