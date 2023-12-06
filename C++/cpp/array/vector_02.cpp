@@ -1,19 +1,27 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
 using namespace std;
 
-int main(void) {
-	ios::sync_with_stdio(false);
-	cin.tie(nullptr);
+void printArray(const vector<int> &arr)
+{
+	for(auto &itr : arr)
+		cout << itr << " ";
+	cout << "\n";
+}
 
-	vector<int> v1(3, 5);			// {5, 5, 5};
-	cout << v1.size() << "\n";		// 3
-	v1.push_back(7);				// {5, 5, 5, 7};
-	v1.insert(v1.begin()+1	, 3);	// {5, 3, 5, 5, 7}
-	v1.front();						// 5
+int main()
+{
+	vector<int> arr {1, 2, 3, 4, 5};
 
-	for (auto i : v1) {
-		cout << i << " ";
-	}
+	// 배열의 길이 변경
+	arr.resize(10);
+	printArray(arr);
 
-	return 0;
+	// 줄이는 것도 가능
+	arr.resize(2);
+	printArray(arr);
+
+	cout << arr[1] << "\n";
+	cout << arr.at(1) << "\n";
+
 }
