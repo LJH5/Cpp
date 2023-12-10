@@ -12,7 +12,7 @@ void func(vector<int> &v)
 int main()
 {
 	// 동적 할당 배열을 대체
-	// vector는 자동으로 메모리 해체함
+	// vector는 블럭을 벗어나면 자동으로 메모리 해체함
 	std::vector<int> array;
 
 	// 초기화 방법
