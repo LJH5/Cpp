@@ -251,6 +251,7 @@ COLCON_IGNORE
 AMENT_IGNORE
 
 ### VisualStudioCode ###
+*.json
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json

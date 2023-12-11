@@ -12,7 +12,6 @@ int main()
     // 반드시 초기화 되야함
     int &ref = value;
     // 리터널은 들어갈 수 없음
-    // int &ref = 123;
 
     cout << ref << "\n";
 
