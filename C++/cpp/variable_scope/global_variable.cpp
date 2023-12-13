@@ -7,7 +7,7 @@ int main() {
     cout << value <<"\n";       // 123
 
     int value = 1;
-    cout << ::value << "\n";    // 123, ¿µ¿ª ¿¬»êÀÚ
+    cout << ::value << "\n";    // 123, ì˜ì—­ ì—°ì‚°ì
     cout << value <<"\n";       // 1
 
     return 0;

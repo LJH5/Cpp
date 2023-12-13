@@ -3,7 +3,7 @@ using namespace std;
 
 int value = 1;
 
-// linker: ¿©·¯°³ÀÇ ¿ÀºêÁ§Æ® ÆÄÀÏÀ» ÇÏ³ªÀÇ ½ÇÇàÆÄÀÏ·Î ¿¬°á
+// linker: ì—¬ëŸ¬ê°œì˜ ì˜¤ë¸Œì íŠ¸ íŒŒì¼ì„ í•˜ë‚˜ì˜ ì‹¤í–‰íŒŒì¼ë¡œ ì—°ê²°
 extern void doSomething();
 
 int main()
@@ -13,9 +13,9 @@ int main()
     int value = 2;
 
     cout << value << "\n";
-    // ¿µ¿ª ¿¬»êÀÚ¸¦ ÀÌ¿ëÇØ global¿µ¿ª¿¡ ÀÖ´Â value¸¦ °¡Á®¿È
+    // ì˜ì—­ ì—°ì‚°ìë¥¼ ì´ìš©í•´ globalì˜ì—­ì— ìˆëŠ” valueë¥¼ ê°€ì ¸ì˜´
     cout << ::value << "\n";
 
-    // external.cpp ÆÄÀÏ¿¡ ¼±¾ğµÈ ÇÔ¼ö¸¦ °¡Á®¿À·Á°í ÇÑ´Ù
+    // external.cpp íŒŒì¼ì— ì„ ì–¸ëœ í•¨ìˆ˜ë¥¼ ê°€ì ¸ì˜¤ë ¤ê³  í•œë‹¤
     doSomething();
 }

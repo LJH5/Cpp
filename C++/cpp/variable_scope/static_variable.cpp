@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// staticÀ¸·Î ¼±¾ðµÈ global º¯¼ö´Â ´Ù¸¥ ÆÄÀÏ¿¡¼­ »ç¿ëÇÒ ¼ö ¾øÀ½
+// staticìœ¼ë¡œ ì„ ì–¸ëœ global ë³€ìˆ˜ëŠ” ë‹¤ë¥¸ íŒŒì¼ì—ì„œ ì‚¬ìš©í•  ìˆ˜ ì—†ìŒ
 static int g_a = 100;
 
 void doSomething()
@@ -15,7 +15,7 @@ void doSomething()
 
 int main()
 {
-    // staticÀ¸·Î ¼±¾ðµÇ±â Àü -> ÈÄ
+    // staticìœ¼ë¡œ ì„ ì–¸ë˜ê¸° ì „ -> í›„
     doSomething();  // 1 -> 1
     doSomething();  // 1 -> 2
     doSomething();  // 1 -> 3
