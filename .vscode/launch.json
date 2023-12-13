@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/sigma/Desktop/Cpp/Algorithm/Exe",
-      "program": "c:/Users/sigma/Desktop/Cpp/Algorithm/Exe/build/Debug/outDebug",
+      "cwd": "c:/Users/sigma/Desktop/Cpp/Algorithm/study",
+      "program": "c:/Users/sigma/Desktop/Cpp/Algorithm/study/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
