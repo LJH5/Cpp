@@ -2,12 +2,13 @@
 using namespace std;
 
 void cntNum(int result) {
-	int arr[10] = { 0 };		// C++은 초기값이 0이 아니라 0 초기화 해줘야 함
+	// 0 ~ 9의 숫자를 저장할 배열, C++은 초기값이 0이 아니라 0 초기화 해줘야 함
+	int arr[10] = { 0 };
 	while (result > 10) {
 		int num = result % 10;
 		result /= 10;
 		arr[num] += 1;
-		//cout << num << " " << result << "\n";
+		// cout << num << " " << result << "\n";
 	}
 	arr[result] += 1;
 

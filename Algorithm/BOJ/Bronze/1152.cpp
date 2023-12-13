@@ -12,8 +12,11 @@ int main(void) {
 	for (int i = 0; i < str_len; i++)
 		if (str[i] == ' ') cnt++;
 
+	// 양끝 공백 제거
 	if (str[0] == ' ')	cnt--;
 	if (str[str.length() - 1] == ' ') cnt--;
+
+	cout << cnt << "\n";
 
 	return 0;
 }
