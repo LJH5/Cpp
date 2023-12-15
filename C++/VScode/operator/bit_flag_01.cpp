@@ -60,15 +60,14 @@ int main()
 
     // get item2, 3
     items_flag |= (opt2 | opt3);
-    cout << "get item2, 3 " << bitset<8>(items_flag) << "\n"
+    cout << "get item2, 3 " << bitset<8>(items_flag) << "\n";
 
-        // chage item2 -> item1
-        if ((items_flag & opt2) && !(items_flag & opt1))
+    // chage item2 -> item1
+    if ((items_flag & opt2) && !(items_flag & opt1))
     {
         items_flag ^= opt2;
         items_flag ^= opt1;
     }
 
     return 0;
-    0
 }

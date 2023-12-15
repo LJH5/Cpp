@@ -2,13 +2,12 @@
 using namespace std;
 
 void cntNum(int result) {
-	// 0 ~ 9ÀÇ ¼ıÀÚ¸¦ ÀúÀåÇÒ ¹è¿­, C++Àº ÃÊ±â°ªÀÌ 0ÀÌ ¾Æ´Ï¶ó 0 ÃÊ±âÈ­ ÇØÁà¾ß ÇÔ
-	int arr[10] = { 0 };
+	int arr[10] = { 0 };		// C++ì€ ì´ˆê¸°ê°’ì´ 0ì´ ì•„ë‹ˆë¼ 0 ì´ˆê¸°í™” í•´ì¤˜ì•¼ í•¨
 	while (result > 10) {
 		int num = result % 10;
 		result /= 10;
 		arr[num] += 1;
-		// cout << num << " " << result << "\n";
+		//cout << num << " " << result << "\n";
 	}
 	arr[result] += 1;
 
