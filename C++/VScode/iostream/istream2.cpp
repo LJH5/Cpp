@@ -23,7 +23,7 @@ int main()
 	// 3
 	char buf[10];
 	
-	cin.get(buf, 3);							// .get을 사용하면 공백을 그대로 출력
+	cin.get(buf, 3);					// .get을 사용하면 공백을 그대로 출력
 	cout << cin.gcount() << endl;		// 입력받은 글자수 출력
 	cout << buf << endl;
 
@@ -59,7 +59,7 @@ int main()
 
 	char buf5[1024];
 	cin >> buf5;
-	coug << buf5 << endl;
+	cout << buf5 << endl;
 
 	// cin의 마지막 요소를 다시 버퍼에 넣음
 	cin.unget();
@@ -67,5 +67,5 @@ int main()
 	cin >> buf5;
 	cout << buf5 << endl;
 
-	return 0; 
+	return 0;
 }
