@@ -4,6 +4,7 @@
 ### C++ ###
 # Prerequisites
 *.d
+*.exe
 
 # Compiled Object files
 *.slo
