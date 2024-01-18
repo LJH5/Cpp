@@ -9,7 +9,6 @@ int main(int argc, char const *argv[])
     int n, num, cut;
     cin >> n;
 
-    // 의견이 없으면 0
     if (n == 0)
     {
         cout << 0 << "\n";
